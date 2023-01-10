@@ -10,6 +10,7 @@ namespace BoundfoxStudios.CommunityProject
 			public const string UI = MenuName + "/UI";
 			public const string Input = MenuName + "/Input";
 			public const string Audio = MenuName + "/Audio";
+			public const string Navigation = MenuName + "/Navigation";
 		}
 	}
 }

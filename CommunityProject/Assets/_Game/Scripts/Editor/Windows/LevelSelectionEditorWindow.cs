@@ -43,6 +43,21 @@ namespace BoundfoxStudios.CommunityProject.Editor.Windows
 		{
 			RenderMenuScenes();
 			RenderManagerScenes();
+			RenderTestScenes();
+		}
+
+		private void RenderTestScenes()
+		{
+			var show = BeginFoldoutGroup("Tests");
+
+			if (show)
+			{
+				EditorGUILayout.HelpBox("This scenes are only for testing some stuff until we have real game play scenes.", MessageType.Info);
+				EditorGUILayout.BeginHorizontal();
+				OpenSceneButton("Level", "Levels/Level_Test");
+				EditorGUILayout.EndHorizontal();
+			}
+			EndFoldoutGroup("Tests", show);
 		}
 
 		private void RenderMenuScenes()

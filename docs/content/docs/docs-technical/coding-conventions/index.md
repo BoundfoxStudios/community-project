@@ -127,6 +127,7 @@ Beispielstruktur:
                 |- ScriptableObjects (Definition)
         |- UI
             |- Materials
+    |- _Sandbox [6]
     |- ... (eventuelle Drittanbieterintegrationen)
 ```
 
@@ -135,5 +136,6 @@ Beispielstruktur:
 3. Im Ordner `Examples` kannst Du, wenn Du neue Systeme für das Spiel implementierst, eine Beispielszene ablegen, um anderen zu zeigen, wie es funktioniert.
 4. Instanzen von ScriptableObjects legen wir separat in diesem Ordner ab.
 5. In diesem Ordner legen wir alle Skripte ab, gruppiert nach jeweiligem System. 
+6. In diesem Ordner wird alles abgelegt, von dem wir wissen, dass es noch ausgetauscht werden muss. Eignet sich z.B. wenn man an einem Feature arbeitet, ein Beispiel-Modell dafür benutzt, dass dann später von einem Artist erst neu modelliert wird.
 
 Generell gilt, dass zusammengehörende Dinge in einem Ordner gruppiert werden sollen. Im Zweifel lieber einen Ordner mehr als zu wenig. 
